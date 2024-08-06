@@ -1027,6 +1027,14 @@ textarea:focus {
         width: 322px;
     }
 }
+@media all and (max-width:360px){
+    .spotlight {
+        height: 145vh;
+    }
+    .footer{
+        height: 350px;
+    }
+}
 
 @media all and (max-width:345px) {
     .resume-title {
