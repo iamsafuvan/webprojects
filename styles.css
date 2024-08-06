@@ -459,6 +459,10 @@ textarea:focus {
     background-color: #0d1410;
     height: 400px;
 }
+/* .socilamedia-iconss li{
+    color: white;
+
+} */
 
 .footer-content h2 {
     display: flex;
@@ -524,7 +528,7 @@ textarea:focus {
     font-family: "Poppins";
     display: flex;
     color: white;
-    margin-right: 35px;
+    margin-right: 0px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -1038,7 +1042,7 @@ textarea:focus {
         font-size: 14px;
     }
     .socilamedia-iconss li a{
-        margin-right: 20px;
+        margin-right: 0px;
     }
     .socilamedia-icons li{
         margin-right: 20px;
@@ -1046,6 +1050,7 @@ textarea:focus {
     .menu-nav li {
         margin-right: 10px;
     }
+
 }
 @media all and (max-width:330px) {
     .skill-items {
@@ -1129,5 +1134,11 @@ textarea:focus {
     }
     .copywrite-txt p {
         font-size: 9px;
+    }
+    .footer{
+        height: 340px;
+    }
+    .spotlight {
+        height: 125vh;
     }
 }
