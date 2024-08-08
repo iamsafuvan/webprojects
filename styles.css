@@ -333,10 +333,7 @@ header {
 .project-section {
     background-color: #040302;
 }
-/* 
-.project {
-    /* height: 99vh; */
- */
+
 
 .project-content h2 {
     font-size: 35px;
@@ -424,10 +421,7 @@ h2 {
     color: white;
 }
 
-/* .contact-img{
-    width: 50%;
 
-} */
 input,
 textarea:focus {
     outline: none;
@@ -437,7 +431,6 @@ textarea:focus {
 
 .sendbutton {
     background-color: #265637;
-    /* width: 23%; */
     text-align: center;
     border-radius: 12px;
 }
@@ -459,16 +452,10 @@ textarea:focus {
     background-color: #000000;
     height: 400px;
 }
-/* .socilamedia-iconss li{
-    color: white;
 
-} */
 
 .footer-content h2 {
     display: flex;
-
-    /* align-items: center;
-    justify-content: space-between; */
     font-size: 30px;
     justify-content: center;
     text-decoration: underline;
@@ -477,7 +464,6 @@ textarea:focus {
     font-weight: 500;
     font-family: "Playwrite AR", cursive;
     color: white;
-    /* margin-right: 35px; */
     cursor: pointer;
 }
 
@@ -497,15 +483,7 @@ textarea:focus {
 
 }
 
-/* .mail-txt{
 
-    display: flex;
-    font-size: 10px;
-    justify-content: center;
-    font-weight: 500;
-    color: grey;
-    font-family: "Poppins";
-} */
 .mail-txt span {
     margin-right: 10px;
 }
