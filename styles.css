@@ -88,7 +88,35 @@ header {
     width: 220px;
     height: 99vh;
     margin-top: -82px;
+    transition: all 1s ease-in;
 }
+
+
+.box-menu.active {
+    background-color: rgb(22, 20, 20);
+    position: fixed;
+    right: 0px;
+    width: 220px;
+    height: 99vh;
+    margin-top: -82px;
+    transition: all 1s ease-in;
+    z-index: 9999;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none; /* Initially hidden */
+    z-index: 998; /* Ensure it's above other elements */
+  }
+
+  .overlay.active {
+    display: block; /* Show overlay when menu is active */
+  }
 
 .close-icon {
     padding: 10px;
@@ -1127,5 +1155,8 @@ textarea:focus {
     }
     .spotlight {
         height: 125vh;
+    }
+    .box-menu.active {
+        margin-top: -55px;
     }
 }

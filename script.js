@@ -28,3 +28,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
 });
+
+
+
+// Select the menubar element
+const menubar = document.getElementById('menubar');
+const overlay = document.querySelector('.overlay');
+const boxMenu = document.querySelector('.box-menu');
+const closeicon = document.querySelector('.close-icon');
+
+
+
+// Add click event listener to the menubar
+menubar.addEventListener('click', function(event) {
+  // Toggle 'active' class on boxMenu and overlay
+  boxMenu.classList.toggle('active');
+  overlay.classList.toggle('active');
+});
+
+// Add click event listener to the overlay
+overlay.addEventListener('click', function(event) {
+  // Remove 'active' class from boxMenu and overlay
+  boxMenu.classList.remove('active');
+  overlay.classList.remove('active');
+});
+
+closeicon.addEventListener('click', function(event) {
+    // Remove 'active' class from boxMenu and overlay
+    boxMenu.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+
+
+
+
+
+
+
+
