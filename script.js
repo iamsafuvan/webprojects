@@ -20,13 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetId = this.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetId);
 
-            targetSection.scrollIntoView({
-                behavior: 'smooth'
-            });
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            } else {
+                console.warn(`No section found with ID: ${targetId}`);
+            }
         });
     }
-
-
 });
 
 
