@@ -88,7 +88,7 @@ header {
     width: 220px;
     height: 99vh;
     margin-top: -82px;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 
@@ -99,7 +99,7 @@ header {
     width: 220px;
     height: 99vh;
     margin-top: -82px;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
     z-index: 9999;
 }
 
