@@ -277,7 +277,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 99vh;
+    padding-top: 67px;
+    padding-bottom: 98px;
 }
 
 .about-section {
@@ -405,7 +406,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    height: 122vh;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .conatact-content h2 {
@@ -657,6 +659,8 @@ textarea:focus {
 
     .skill {
         margin-bottom: 93px;
+        margin-top: 50px;
+    
     }
 
 }
